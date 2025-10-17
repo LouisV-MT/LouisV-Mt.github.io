@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  },
+  "name": "portfolio1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "tailwindcss init",
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
