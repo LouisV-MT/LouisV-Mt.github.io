@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Shop",
+    "cardDescription": "Full-featured e-commerce site built with PHP and MySQL.",
+    "fullDescription": "A complete e-commerce platform following MVC architecture patterns. Includes user authentication system, shopping cart functionality, product catalog management, and a comprehensive admin panel. Built with PHP backend and MySQL database, styled with Bootstrap for responsive design.",
+    "keyFeatures": [
+      "User authentication & account management",
+      "Product catalog with search & filtering",
+      "Shopping cart & checkout system",
+      "Order management & tracking",
+      "Admin panel for inventory management",
+      "Payment processing integration",
+      "Responsive Bootstrap UI"
+    ],
+    "image": "images/E-Commerce.png",
+    "pdfLink": null,
+    "credentials": null,
+    "tech": ["PHP", "MySQL", "Bootstrap", "MVC Pattern", "Session Management"],
+    "githubLinks": [
+      {"label": "GitHub", "url": "https://github.com/LouisV-MT/group2project"}
+    ],
+    "deepwikiLinks": [],
+    "liveDemo": "https://temuotemu.gamer.gd/"
+  },
+  {
+    "id": 2,
+    "title": "Recipe Today",
+    "cardDescription": "Frontend recipe browser using vanilla JS and TheMealDB API.",
+    "fullDescription": "A lightweight, client-side recipe discovery application built with vanilla JavaScript. Fetches recipe data from the TheMealDB API in real-time, providing users with a responsive browsing experience. Pure frontend implementation showcasing modern JavaScript ES6 features and API integration best practices.",
+    "keyFeatures": [
+      "Real-time recipe data fetching from TheMealDB API",
+      "Advanced search & filtering functionality",
+      "Recipe detail pages with ingredients & instructions",
+      "Responsive design for mobile & desktop",
+      "Local storage for favorites",
+      "Dynamic DOM manipulation with vanilla JS",
+      "Clean, maintainable code structure"
+    ],
+    "image": "images/RecipeToday.png",
+    "pdfLink": null,
+    "credentials": null,
+    "tech": ["JavaScript (ES6)", "HTML5", "CSS", "Bootstrap", "Fetch API", "TheMealDB API"],
+    "githubLinks": [
+      {"label": "GitHub Repo", "url": "https://github.com/LouisV-MT/recipe-app1"}
+    ],
+    "deepwikiLinks": [],
+    "liveDemo": "https://louisv-mt.github.io/recipe-app1/"
+  },
+  {
+    "id": 3,
+    "title": "Recipe Hub",
+    "cardDescription": "Full-stack recipe management system built with Spring Boot.",
+    "fullDescription": "A comprehensive recipe management platform with full-stack architecture. Built with Spring Boot backend and Thymeleaf templating for server-side rendering. Features user authentication, role-based access control, an admin dashboard, and integration with external recipe APIs. Containerized with Docker for easy deployment.",
+    "keyFeatures": [
+      "User authentication & role-based access",
+      "Recipe CRUD operations with rich metadata",
+      "Admin dashboard for content management",
+      "Nutrition label display & recipe details",
+      "External API integration for recipe sourcing",
+      "Docker containerization & cloud deployment",
+      "Responsive UI with Thymeleaf templates"
+    ],
+    "image": "images/RecipeHub.png",
+    "pdfLink": "images/RecipeApp.pdf",
+    "credentials": null,
+    "tech": ["Java", "Spring Boot", "MySQL", "Thymeleaf", "AWS S3", "Docker", "JPA/Hibernate"],
+    "githubLinks": [
+      {"label": "GitHub", "url": "https://github.com/LouisV-MT/projectprograming3"}
+    ],
+    "deepwikiLinks": [],
+    "liveDemo": "https://projectprograming3.onrender.com"
+  },
+  {
+    "id": 4,
+    "title": "Pollarity",
+    "cardDescription": "AI-driven survey platform with bias correction.",
+    "fullDescription": "An advanced survey platform that leverages AI to enhance data quality and reduce survey bias. Users can create surveys where an integrated AI assistant helps generate unbiased questions based on descriptions and refines existing ones. Built with React frontend and Node.js/Express backend with PostgreSQL database, deployed on Render.",
+    "keyFeatures": [
+      "AI-powered question generation & refinement using OpenAI API",
+      "User authentication & survey management",
+      "Real-time bias detection & correction",
+      "Export & analytics dashboard",
+      "JWT & Passport authentication strategies",
+      "Deployed on Render with SSL certificates"
+    ],
+    "image": "images/Pollarity.png",
+    "pdfLink": "images/Pollarity.pdf",
+    "credentials": null,
+    "tech": ["React", "Node.js", "Express.js", "SQL (Aiven)", "OpenAI API", "Tailwind CSS", "JWT", "Passport", "Render"],
+    "githubLinks": [
+      {"label": "Frontend", "url": "https://github.com/JonGlaab/Pollarity-Frontend"},
+      {"label": "Backend", "url": "https://github.com/JonGlaab/Pollarity-Backend"}
+    ],
+    "deepwikiLinks": [
+      {"label": "Wiki (FE)", "url": "https://deepwiki.com/JonGlaab/Pollarity-Frontend"},
+      {"label": "Wiki (BE)", "url": "https://deepwiki.com/JonGlaab/Pollarity-Backend"}
+    ],
+    "liveDemo": "https://pollarity-frontend.onrender.com/"
+  },
+  {
+    "id": 5,
+    "title": "Finance Tracker",
+    "cardDescription": "Automated receipt scanning & reporting via WhatsApp.",
+    "fullDescription": "A complex n8n automation workflow that transforms WhatsApp into a personal finance assistant. It handles receipt image uploads via OCR technology, interacts with the Google Drive API to manage spreadsheets automatically, and provides real-time transaction logging. The system includes secure authentication flow and automated callback handling for seamless user experience.",
+    "keyFeatures": [
+      "Receipt image capture & OCR processing",
+      "AI categorization of items",
+      "Automated Google Drive spreadsheet integration",
+      "Real-time transaction logging",
+      "WhatsApp Business API integration",
+      "Secure authentication & callback handling"
+    ],
+    "image": "images/AI-Finance.png",
+    "pdfLink": "images/ReceiptRadar.pdf",
+    "credentials": null,
+    "tech": ["n8n", "WhatsApp Business API", "Google Drive API", "OCR", "Webhooks", "Email Service"],
+    "githubLinks": [
+      {"label": "GitHub Workflow", "url": "https://github.com/LouisV-MT/n8n-AI-Finance"}
+    ],
+    "deepwikiLinks": [],
+    "liveDemo": null
+  },
+  {
+    "id": 6,
+    "title": "VenueFlow",
+    "cardDescription": "WPF application for wedding venue management & seating.",
+    "fullDescription": "A comprehensive desktop application designed for wedding venue management and event coordination. It streamlines the planning process by enabling Excel-based guest list imports with intelligent data parsing. Features an automated seating algorithm that optimizes table arrangements based on guest preferences and relationships.",
+    "keyFeatures": [
+      "Excel guest list import & parsing",
+      "Automated intelligent seating algorithm",
+      "Table arrangement optimization",
+      "Guest preference management",
+      "Event timeline & budget tracking",
+      "Comprehensive venue management dashboard"
+    ],
+    "image": "images/VenueFlow.png",
+    "pdfLink": "images/VenueFlow.pdf",
+    "credentials": null,
+    "tech": ["C#", ".NET (WPF)", "Entity Framework Core", "MiniExcel", "MSTest", "SQL Server"],
+    "githubLinks": [
+      {"label": "GitHub", "url": "https://github.com/LouisV-MT/VenueFLow"}
+    ],
+    "deepwikiLinks": [
+      {"label": "Wiki", "url": "https://deepwiki.com/LouisV-MT/VenueFLow"}
+    ],
+    "liveDemo": null
+  },
+  {
+    "id": 7,
+    "title": "YouView",
+    "cardDescription": "Custom YouTube viewer with premium subscriptions.",
+    "fullDescription": "A full-stack video discovery and streaming platform built with ASP.NET Core. Features infinite-scroll video feeds, channel discovery, video uploads with metadata editing, and Stripe-powered premium subscriptions. Includes comprehensive user account management, watch history tracking, and video recommendations based on user behavior.",
+    "keyFeatures": [
+      "Infinite-scroll video feed with lazy loading",
+      "Channel discovery & subscription management",
+      "Video upload & metadata editing capabilities",
+      "Watch history & video recommendations",
+      "Liked videos/favorites management",
+      "Premium subscription with Stripe integration",
+      "Search functionality with advanced filtering",
+      "User account & profile management"
+    ],
+    "image": "images/YouView.png",
+    "pdfLink": "images/YouView.pdf",
+    "credentials": null,
+    "tech": ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server", "Razor Pages", "Azure Blob Storage", "Stripe API"],
+    "githubLinks": [
+      {"label": "GitHub", "url": "https://github.com/JonGlaab/YouView"}
+    ],
+    "deepwikiLinks": [],
+    "liveDemo": "https://youview.azurewebsites.net"
+  },
+  {
+    "id": 8,
+    "title": "SupplyMind",
+    "cardDescription": "Web application for streamlining supply chain management.",
+    "fullDescription": "A full-stack supply chain management platform with separate React frontend and Spring Boot backend. Enables real-time inventory tracking, purchase order management, and automated notifications. Features WebSocket integration for live updates, Stripe payment processing, and role-based access control for different user types. Mobile app included with QR login compatibility",
+    "keyFeatures": [
+      "QR Login for quick and secure login using mobile app",
+      "Real-time inventory tracking & updates",
+      "Purchase order (PO) creation & management",
+      "WebSocket integration for live notifications",
+      "Stripe payment & subscription support",
+      "User role-based access control (Admin, PO, etc)",
+      "Inbox system for notifications & alerts",
+      "Dashboard analytics & reporting",
+      "Dedicated mobile app version for easier input on the fly"
+    ],
+    "image": "images/SupplyMind.png",
+    "pdfLink": "images/SupplyMind.pdf",
+    "credentials": {
+      "email": "supplymind.demo.2025manager@gmail.com",
+      "password": "manager123"
+    },
+    "tech": ["React", "Vite", "Tailwind CSS", "Java", "Spring Boot", "MySQL", "WebSocket", "Stripe API"],
+    "githubLinks": [
+      {"label": "Backend", "url": "https://github.com/JonGlaab/SupplyMind-Backend"},
+      {"label": "Frontend", "url": "https://github.com/JonGlaab/SupplyMind-Frontend"}
+    ],
+    "deepwikiLinks": [],
+    "liveDemo": "https://supplymind-frontend-7c89888c6700.herokuapp.com/login"
+  }
+]
